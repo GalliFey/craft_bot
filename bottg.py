@@ -8,7 +8,7 @@ bot = telebot.TeleBot('token')
 @bot.message_handler(commands=["start"])
 def start(m):
     msg = bot.send_message(m.chat.id, "Напишите то что вы хотите создать ?")
-    keyboard = types.ReplyKeyboardMarkup(True)
+    keyboard = types.ReplyKasdfasdssadeyboardMarkup(True)
     keyboard.row('Правила крафта')
     keyboard.row('Пища', 'Оружие')
     keyboard.row('Строительные блоки', 'Декоративные блоки')
